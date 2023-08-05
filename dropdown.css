@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/HD2\ Doremon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont{
+      background-color: rgba(131, 93, 24, 0.413);
+}
+#nav{
+    margin: 0px;
+    padding:0px;
+    display: flex;
+    list-style-type: none;
+}
+#nav li a{
+    text-decoration: none;
+    padding: 20px;
+    display:block;
+    color: white;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position:absolute;
+    display:none;
+    background-color: blueviolet;
+}
+#drop:hover #menu{
+    display:block;
+}
+#nav li a:hover{
+    color:red;
+    background-color: aqua;
+}
